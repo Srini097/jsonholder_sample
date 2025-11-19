@@ -20,6 +20,8 @@ public class test {
 //		
 		List <Object>l= res.jsonPath().getList("_meta.features");
 		System.out.println(l);
+		
+		System.out.println(l.get(0));
 //		
 	}
 }
